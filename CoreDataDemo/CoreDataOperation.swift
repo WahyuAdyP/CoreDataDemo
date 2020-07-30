@@ -7,10 +7,9 @@
 //
 
 import Foundation
-import UIKit
 import CoreData
 
-class Database {
+class CoreDataOperation {
     private var stack: CoreDataStack
     private var context: NSManagedObjectContext
     private var model: NSManagedObjectModel

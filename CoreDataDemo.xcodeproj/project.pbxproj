@@ -19,7 +19,7 @@
 		E2A373BE24AD88F200AFC12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A373BD24AD88F200AFC12D /* Assets.xcassets */; };
 		E2A373C124AD88F200AFC12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A373BF24AD88F200AFC12D /* LaunchScreen.storyboard */; };
 		E2A373C924AD89C300AFC12D /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A373C824AD89C300AFC12D /* DatabaseHelper.swift */; };
-		E2A373CB24AD89E100AFC12D /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A373CA24AD89E100AFC12D /* Database.swift */; };
+		E2A373CB24AD89E100AFC12D /* CoreDataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A373CA24AD89E100AFC12D /* CoreDataOperation.swift */; };
 		E2A373CE24AD8D5500AFC12D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A373CD24AD8D5500AFC12D /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		E2A373C024AD88F200AFC12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2A373C224AD88F200AFC12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2A373C824AD89C300AFC12D /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
-		E2A373CA24AD89E100AFC12D /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		E2A373CA24AD89E100AFC12D /* CoreDataOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataOperation.swift; sourceTree = "<group>"; };
 		E2A373CD24AD8D5500AFC12D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -81,7 +81,7 @@
 				E2880B7924B3090800288750 /* Coordinate.swift */,
 				E26D1A8124B8290F00BF348F /* Object.swift */,
 				E2A2556A24B844EF00F924C6 /* CoreDataStack.swift */,
-				E2A373CA24AD89E100AFC12D /* Database.swift */,
+				E2A373CA24AD89E100AFC12D /* CoreDataOperation.swift */,
 				E2A373C824AD89C300AFC12D /* DatabaseHelper.swift */,
 				E2A373B524AD88EF00AFC12D /* ViewController.swift */,
 				E2880B7B24B30AF800288750 /* DetailViewController.swift */,
@@ -174,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2880B7A24B3090800288750 /* Coordinate.swift in Sources */,
-				E2A373CB24AD89E100AFC12D /* Database.swift in Sources */,
+				E2A373CB24AD89E100AFC12D /* CoreDataOperation.swift in Sources */,
 				E2A373B624AD88EF00AFC12D /* ViewController.swift in Sources */,
 				E2A2557324B9314B00F924C6 /* CoreDataDemo.xcdatamodeld in Sources */,
 				E26D1A8224B8290F00BF348F /* Object.swift in Sources */,
